@@ -1,9 +1,11 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+`git clone https://github.com/daichi000/picksch.git`
 
-Things you may want to cover:
+`bundle install`
+
+`bundle exec rails s`
+でRails初期画面表示
 
 * Ruby version
 
