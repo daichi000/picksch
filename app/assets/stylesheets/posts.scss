@@ -2,6 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 /* posts/index ================================ */
+/* posts/index ================================ */
 .posts-index-item {
   padding: 20px 30px;
   background-color: white;
@@ -74,6 +75,24 @@
   margin-bottom: 10px;
 }
 
+// .like-btnのcolorを「#8899a6」にしてください
+.like-btn{
+  color: #8899a6;
+}
+
+
+// .like-btn-unlikeのcolorを「#ff2581」にしてください
+.like-btn-unlike{
+  color:#ff2581;
+}
+
+
+// ここに指定されたCSSを貼り付けてください
+.posts-show-item .fa {
+  font-size: 16px;
+  margin-right: 3px;
+}
+
 .post-menus {
   float: right;
 }
@@ -91,4 +110,9 @@
   min-height: 140px;
   border: 1px solid rgb(216, 218, 223);
   resize: none;
+}
+
+.posts-new textarea::-webkit-input-placeholder {
+  font-size: 24px;
+  opacity: 0.5;
 }
