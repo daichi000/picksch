@@ -6,13 +6,13 @@
   }
   
   html {
-    font:100%/1.5;
+   
     font-family:"arial black","sans-serif";
     line-height: 1.7;
     letter-spacing: 1px;
   }
   
-  ul, li {
+  ul, li {    
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -47,12 +47,13 @@
   }
   
   .main {
+    background-color:#CC66FF;
     position: absolute;
     top: 64px;
     width: 100%;
     height: auto;
     min-height: 100%;
-    background-color: #f5f8fa;
+  
   }
   
   .container {
@@ -85,6 +86,7 @@
   }
   
   .header-menus {
+ 
     float: right;
     padding-right: 20px;
   }
@@ -143,7 +145,7 @@
     -webkit-font-smoothing: antialiased;
     margin-bottom: 20px;
   }
-  
+
   .top-main p {
     font-size: 24px;
   }
@@ -179,13 +181,18 @@
   }
   
   .form-heading {
+    font-family:"arial black","sans-serif";
+    border-radius:30px;
+    text-align:center;
+    background-color:#FF773E;
     font-weight: 300;
     margin: 60px 0 20px;
-    font-size: 48px;
-    color: #bcc8d4;
+    font-size: 40px;
+    color:white;
   }
   
   .form-body {
+   
     padding: 30px;
   }
   
@@ -211,7 +218,9 @@
   }
   
   .form input[type="submit"] {
-    background-color: #CC66FF;
+    opacity:0.5;
+    border-radius:20px;
+    background-color:black;
     color: white;
     cursor: pointer;
     font-weight: 300;
@@ -221,7 +230,10 @@
     margin-bottom: 0;
     float: right;
   }
-  
+  .form input[type="submit"]:hover{
+   opacity:1;
+  }
+
   .form-body:after {
     content: '';
     display: table;
@@ -240,4 +252,9 @@
     width: 100%;
     border-radius: 0 0 2px 2px;
     font-size: 14px;
+  }
+
+  /* 追加================================ */
+  .btn :hover{
+   color:black;
   }

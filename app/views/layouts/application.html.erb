@@ -35,19 +35,23 @@
             <%= link_to("ログアウト","/logout",{method: :post})%>
           </li>
         <% else %>
-          <li>
+          <li class="btn">
             <%= link_to("Eduateとは", "/about") %>
           </li>
-          <li>
-            <%= link_to("新規登録", "/signup") %>
-          </li>
-          <li>
+ <!--　
+ <li class="btn">
+  <%= link_to("新規登録", "/signup") %>
+ </li> 
+  -->
+
+          <li class="btn">
             <%= link_to("ログイン", "/login") %>
           </li>
         <% end %>
       </ul>
     </header>
 
+    
     <% if flash[:notice] %>
       <div class="flash">
         <%= flash[:notice] %>
