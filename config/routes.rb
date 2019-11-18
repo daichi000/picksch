@@ -13,7 +13,7 @@ Rails.application.routes.draw do
   post 'login', to: 'users#login'
   get 'logout', to: 'users#logout'
   get 'login', to: 'users#login_form'
-  get "users/:id/likes" => "users#likes"
+  get "users/:id/likes", to: "users#likes"
   get "posts/index", to: "posts#index"
   get "posts/new", to: "posts#new"
   get "posts/:id", to: "posts#show"
