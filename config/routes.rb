@@ -15,6 +15,7 @@ Rails.application.routes.draw do
   get 'login', to: 'users#login_form'
   get "users/:id/likes", to: "users#likes"
   get "posts/index", to: "posts#index"
+  get "posts/news", to: "posts#news"
   get "posts/new", to: "posts#new"
   get "posts/:id", to: "posts#show"
   post "posts/create", to: "posts#create"
