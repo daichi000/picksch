@@ -3,6 +3,8 @@ Rails.application.routes.draw do
   get 'likes/:post_id/destroy', to: 'likes#destroy'
 
  
+  get "messages/show", to: "messages#show"
+  get "messages/create",to: "messages#create"
   
   post "users/:id/update", to: "users#update"
   get "users/:id/edit", to: "users#edit"
