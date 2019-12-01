@@ -13,6 +13,11 @@
         <input type="submit" value="投稿">
       </div>
     </div>
+    <div class="field">
+      <textarea name="content" id="article_text"><%=@post.content%></textarea>
+      <trix-editor input="article_text"></trix-editor>
+    </div>  
     <%end%>
+    <input type="submit" value="投稿">
   </div>
 </div>
